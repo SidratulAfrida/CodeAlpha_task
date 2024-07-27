@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChronoCal</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <img src="logo.jpg" alt="ChronoCal Logo" class="app-logo">
+        <h3><b>Age Calculator</b><h3>
+        <div class="input-group">
+            <label for="birthdate">From</label>
+            <input type="date" id="birthdate">
+        </div>
+        <div class="input-group">
+            <label for="enddate">To</label>
+            <input type="date" id="enddate">
+        </div>
+        <button onclick="calculateAge()">Calculate</button>
+        <div class="result" id="result"></div>
+    </div>
+
+    <!-- Modal -->
+    <div id="ageModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="summary"></div>
+            <div id="detailed"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
