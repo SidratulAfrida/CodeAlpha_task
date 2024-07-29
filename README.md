@@ -1,7 +1,7 @@
 <h1>
 Age-Detection-App
 </h1>
-ChronoCal is an all-in-one age calculator web application that helps to monitor age in various ways. To know how many days or how many months are left until next birthday,This app offers detailed insights with a user-friendly interface.
+It is an all-in-one age calculator web application that helps to monitor age in various ways. To know how many days or how many months are left until next birthday,This app offers detailed insights with a user-friendly interface.
 
 ## Features
 - **Date Input:** Users can input their birthdate to calculate their age up to a specified end date or the current date.
